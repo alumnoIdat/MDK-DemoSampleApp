@@ -1,0 +1,64 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ContactCell",
+					"Target": {
+						"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
+						"EntitySet": "Customers",
+						"QueryOptions": "$orderby=LastName"
+					},
+					"_Name": "SectionContactCell0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"ContactCell": {
+						"ContextMenu": {
+							"PerformFirstActionWithFullSwipe": true,
+							"Items": []
+						},
+						"DetailImage": "",
+						"Headline": "{LastName}",
+						"Subheadline": "{FirstName}",
+						"Description": "{City}",
+						"ActivityItems": [
+							{
+								"_Name": "SectionContactCell0ActivityItems0",
+								"ActivityType": "Phone",
+								"ActivityValue": "{PhoneNumber}"
+							},
+							{
+								"_Name": "SectionContactCell0ActivityItems1",
+								"ActivityType": "Email",
+								"ActivityValue": "{EmailAddress}"
+							}
+						]
+					},
+					"Search": {
+						"Enabled": true,
+						"BarcodeScanner": true
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Customers_List",
+	"Caption": "Customers",
+	"PrefersLargeCaption": true
+}
