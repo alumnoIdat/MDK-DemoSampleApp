@@ -1,1 +1,14 @@
-{}
+{
+  "mdk.mobileservice": {
+    "adminAPI": "https://mobile-service-cockpit-web.cfapps.us10.hana.ondemand.com/cockpit/v1/org/d42dc380trial/space/dev",
+    "appId": "com.sap.mdk.demo"
+  },
+  "mdk.logLevel": "debug",
+  "mdk.createUploadBundleZip": false,
+  "mdk.targetClient": "MDK 6.x",
+  "mdk.bundleToAppRoot": true,
+  "mdk.debugAppRoot": "C:\\Users\\lmoralca\\Documents\\trials\\MDK\\DemoAndMdkclient\\MDKClient-DemoSampleApp\\DemoSampleApp",
+  "mdk.autoBundle": true,
+  "mdk.stopBundleOnValidationError": true,
+  "mdk.validateBeforeBundle": false
+}

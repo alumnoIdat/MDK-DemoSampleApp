@@ -28,6 +28,7 @@
 							"Image": "sap-icon://customer",
 							"ImagePosition": "Leading",
 							"FullWidth": false,
+							"Clickable": true,
 							"Visible": true
 						}
 					],
@@ -41,7 +42,7 @@
 	],
 	"_Type": "Page",
 	"_Name": "Main",
-	"Caption": "Main",
+	"Caption": "Main Page",
 	"PrefersLargeCaption": true,
 	"ToolBar": {
 		"Items": [
