@@ -32,3 +32,9 @@ App update failed, will roll back to previous metadata definitions Reason: Inval
     - tns run android --device 18ABCDEFGH
     or
     - tns run android --emulate
+
+### Debug application
+
+- [Source 1](https://blogs.sap.com/2020/12/21/debug-your-mdk-app-with-visual-studio-code-android-studio./)
+- [Source 2](https://blogs.sap.com/2018/09/07/example-edit-and-debug-a-mdk-app-in-vs-code/)
+- [Source 3: for ios](https://blogs.sap.com/2018/08/07/debugging-apps-made-easy-with-the-mobile-development-kit-extension-for-vs-code/)

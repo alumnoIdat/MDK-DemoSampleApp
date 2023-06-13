@@ -7,7 +7,7 @@
   "mdk.createUploadBundleZip": false,
   "mdk.targetClient": "MDK 6.x",
   "mdk.bundleToAppRoot": true,
-  "mdk.debugAppRoot": "C:\\Users\\lmoralca\\Documents\\trials\\MDK\\DemoAndMdkclient\\MDKClient-DemoSampleApp\\DemoSampleApp",
+  "mdk.debugAppRoot": "/Users/lmoralca/Documents/trials/MDK/DemoAndMdkclient/MDKClient-DemoSampleApp/DemoSampleApp",
   "mdk.autoBundle": true,
   "mdk.stopBundleOnValidationError": true,
   "mdk.validateBeforeBundle": false
