@@ -5,6 +5,13 @@
 			"_Name": "SectionedTable0",
 			"Sections": [
 				{
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
 					"_Type": "Section.Type.ContactCell",
 					"Target": {
 						"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
@@ -15,13 +22,6 @@
 					"Visible": true,
 					"EmptySection": {
 						"FooterVisible": false
-					},
-					"Separators": {
-						"TopSectionSeparator": false,
-						"BottomSectionSeparator": true,
-						"HeaderSeparator": true,
-						"FooterSeparator": true,
-						"ControlSeparator": true
 					},
 					"DataPaging": {
 						"ShowLoadingIndicator": false,
@@ -36,6 +36,7 @@
 						"Headline": "{LastName}",
 						"Subheadline": "{FirstName}",
 						"Description": "{City}",
+						"OnPress": "/DemoSampleApp/Actions/NavToCustomers_Detail.action",
 						"ActivityItems": [
 							{
 								"_Name": "SectionContactCell0ActivityItems0",
