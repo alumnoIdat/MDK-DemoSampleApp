@@ -8,10 +8,8 @@
 					"ObjectHeader": {
 						"Subhead": "{FirstName}",
 						"Footnote": "{EmailAddress}",
-						"Description": "Description",
+						"Description": "{CustomerId}",
 						"StatusText": "{PhoneNumber}",
-						"DetailImage": "sap-icon://customer",
-						"DetailImageIsCircular": false,
 						"BodyText": "{DateOfBirth}",
 						"HeadlineText": "{LastName}",
 						"StatusPosition": "Stacked",
@@ -23,28 +21,22 @@
 					"Visible": true
 				},
 				{
-					"Separators": {
-						"TopSectionSeparator": false,
-						"BottomSectionSeparator": true,
-						"HeaderSeparator": true,
-						"FooterSeparator": true
-					},
 					"KeyAndValues": [
 						{
 							"Value": "{HouseNumber} {Street}",
-							"_Name": "KeyValue2",
+							"_Name": "KeyValue0",
 							"KeyName": "Address",
 							"Visible": true
 						},
 						{
 							"Value": "{City}",
-							"_Name": "KeyValue0",
+							"_Name": "KeyValue1",
 							"KeyName": "City",
 							"Visible": true
 						},
 						{
 							"Value": "{PostalCode}",
-							"_Name": "KeyValue1",
+							"_Name": "KeyValue2",
 							"KeyName": "Postal Code",
 							"Visible": true
 						},
@@ -69,10 +61,6 @@
 			]
 		}
 	],
-	"DesignTimeTarget": {
-		"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
-		"EntitySet": "Customers"
-	},
 	"_Type": "Page",
 	"_Name": "Customers_Detail",
 	"Caption": "Details",

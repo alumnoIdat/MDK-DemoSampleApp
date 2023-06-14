@@ -1,23 +1,10 @@
 {
 	"Controls": [
 		{
-			"_Type": "Control.Type.SectionedTable",
-			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer0",
 			"Sections": [
 				{
-					"Visible": true,
-					"EmptySection": {
-						"FooterVisible": false
-					},
-					"Separators": {
-						"TopSectionSeparator": false,
-						"BottomSectionSeparator": true,
-						"HeaderSeparator": true,
-						"FooterSeparator": true,
-						"ControlSeparator": true
-					},
-					"_Type": "Section.Type.FormCell",
-					"_Name": "SectionFormCell0",
 					"Controls": [
 						{
 							"Value": "{FirstName}",
@@ -25,7 +12,6 @@
 							"_Name": "FCFirstName",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Separator": true,
 							"Caption": "First Name",
 							"PlaceHolder": "PlaceHolder",
 							"Enabled": true
@@ -36,8 +22,7 @@
 							"_Name": "FCLastName",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Separator": true,
-							"Caption": "Last Name ",
+							"Caption": "Last Name",
 							"PlaceHolder": "PlaceHolder",
 							"Enabled": true
 						},
@@ -47,7 +32,6 @@
 							"_Name": "FCPhone",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Separator": true,
 							"Caption": "Phone",
 							"PlaceHolder": "PlaceHolder",
 							"KeyboardType": "Phone",
@@ -59,13 +43,13 @@
 							"_Name": "FCEmail",
 							"IsEditable": true,
 							"IsVisible": true,
-							"Separator": true,
 							"Caption": "Email",
 							"PlaceHolder": "PlaceHolder",
 							"KeyboardType": "Email",
 							"Enabled": true
 						}
-					]
+					],
+					"Visible": true
 				}
 			]
 		}
@@ -73,7 +57,6 @@
 	"_Type": "Page",
 	"_Name": "Customers_Edit",
 	"Caption": "Update Customer",
-	"PrefersLargeCaption": true,
 	"ActionBar": {
 		"Items": [
 			{

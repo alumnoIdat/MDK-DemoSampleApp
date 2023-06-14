@@ -4,6 +4,7 @@
 		"_Name": "Customers_UpdateEntity"
 	},
 	"OnSuccess": "/DemoSampleApp/Actions/CloseModalPage_Complete.action",
+	"ValidationRule": "/DemoSampleApp/Rules/EmailValidation.js",
 	"Target": {
 		"Service": "/DemoSampleApp/Services/SampleServiceV2.service",
 		"EntitySet": "Customers",

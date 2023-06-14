@@ -5,17 +5,6 @@
 			"_Name": "SectionedTable0",
 			"Sections": [
 				{
-					"Separators": {
-						"TopSectionSeparator": false,
-						"BottomSectionSeparator": true,
-						"HeaderSeparator": true,
-						"FooterSeparator": true,
-						"ControlSeparator": true
-					},
-					"Layout": {
-						"LayoutType": "Vertical",
-						"HorizontalAlignment": "Leading"
-					},
 					"_Type": "Section.Type.ButtonTable",
 					"_Name": "SectionButtonTable0",
 					"Visible": true,
@@ -24,19 +13,17 @@
 					},
 					"Buttons": [
 						{
-							"Clickable": true,
 							"_Name": "SectionButton0",
 							"Title": "Customers",
-							"Alignment": "Center",
-							"ButtonType": "Text",
-							"Semantic": "Tint",
 							"Image": "sap-icon://customer",
-							"ImagePosition": "Leading",
-							"FullWidth": false,
 							"Visible": true,
 							"OnPress": "/DemoSampleApp/Actions/NavToCustomers_List.action"
 						}
-					]
+					],
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					}
 				}
 			]
 		}
